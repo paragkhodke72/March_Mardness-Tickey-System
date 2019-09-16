@@ -1,0 +1,526 @@
+/**
+ parag Khodke
+ pkhod1@unh.newhaven.edu
+ 
+ Assumptions:-
+    This code is for host to add events details and users to book ticket
+    at the beginning no events records will available so we need to add details of events
+*/
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 1). Exit from First menu.
+
+
+
+
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+parag
+
+Hello, parag,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+--------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+5
+
+Thank you for choosing woodstock festival event. Bye !!!
+Program ended with exit code: 0
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 2). 
+
+Display all records (we did not create any events of records till now -> error will occur) and ask user to choose again
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+parag
+
+Hello, parag,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+3
+
+
+Sorry !! No event found !!! . Event failed to load.
+ 
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 3). 
+
+Search for Specific records (we did not create any events of records till now -> error will occur) and ask user to choose again
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+2
+
+Enter the Event id ?? 
+1
+Sorry ! No Event records found.. Failed to load. 
+
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 4). 
+
+Now we will add the records in files as follows by filling all the required details, And ask users to Enter again .
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+1
+
+Enter Event id:- 1
+Enter event Name:- summer
+Artists name ?? 
+selena
+Enter time of event(use AM/PM):- 3
+Enter price for this in $ :- 100
+Enter row for this:-
+1
+enter Seat number:- 
+2
+Enter section for that ?:- 
+3
+Enter Location for event ?:- 
+LA
+
+Event added Successfully ! Thank you !
+ 
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+1
+
+Enter Event id:- 2
+Enter event Name:- winter
+Artists name ?? 
+justin
+Enter time of event(use AM/PM):- 4
+Enter price for this in $ :- 200
+Enter row for this:-
+4
+enter Seat number:- 
+6
+Enter section for that ?:- 
+7
+Enter Location for event ?:- 
+MA
+
+Event added Successfully ! Thank you !
+ 
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 5.)
+
+
+Display all presentd events
+
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+3
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+E_ID	Event_Name			Artists			Time			seats-remaning		Locations
+---------------------------------------------------------------------------------------------------------------------------------------------------
+1		summer				selena				3				25				LA
+2		winter				justin				4				25				MA
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 6)
+
+
+Search spectific events details
+
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+2
+
+Enter the Event id ?? 
+2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+EventId	 EventName	  artists		  time	  Seat-Remaning		   $		     seatNo		   row		section	   Location
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1	 summer		  selena		   3		25		  100			2		    1		3	      LA
+
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+2
+
+Enter the Event id ?? 
+1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+EventId	 EventName	  artists		  time	  Seat-Remaning		   $		     seatNo		   row		section	   Location
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1	 summer		  selena		   3		25		  100			2		    1		3	      LA
+
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 7) 
+
+
+Book 5 ticket now :- 
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+parag
+
+Hello, parag,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+---------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+4
+
+
+Enter The event name to be booked 
+summer
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+EventId	 EventName	  artists		  time	  Seat-Remaning		   $		     seatNo		   row		section	   Location
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1	 summer		  selena		3		25		100			2		1		3	    LA
+
+please Confirm your name again ? 
+parag
+how many ticket ??
+5
+Ticked sold
+
+Pickup your following ticket :-  
+	|***************************************************************************************|
+	       @ WOOD STOCK MUSIC and ARTS FAIR @                                               |
+	|---------------------------------------------------------------------------------------|
+	|	ID:-1		Event-Name:-summer	By:-selena	Time:- 3        $ 100	|
+	|	SeatNo:- 2.      Row:-1	                Section:-3	Address:-LA	        |
+	|                                                                                       |
+	|                                                                                       |
+	|                                                                                       |
+	|Good For One Admission only !                                                          |
+	|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+	|NO REFUND                       Thanks for Choosing !!!	    Be Safe!            |
+	|***************************************************************************************|
+
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 8)
+
+Try to buy more than available now:-
+
+
+
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+--------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+4
+
+
+Enter The event name to be booked 
+summer
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+EventId	 EventName	  artists		  time	  Seat-Remaning		   $		     seatNo		   row		section	   Location
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1	 summer		   selena		   3		25		   00			2		    1		 3		LA
+
+please Confirm your name again ? 
+parag
+how many ticket ??
+30
+Sorry parag  , Insufficient availiable tickets , you can try again !!! 
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE 9)
+
+Error: event not found while booking
+Welcome to 'Wood Stock Event' by Parag B.Khodke 
+
+Please enter your Name :- 
+khodke
+
+Hello, khodke,  
+
+Please Enter your choice for the upcoming Event.
+Look at the Favourate  SAMPLE EVENT details:::
+
+Choie		Event-Name				Artists Name			Location
+--------------------------------------------------------------------------------------------------------
+1			Saturday-Night			Drake.				Wednesday Sepcial
+2			Best-OF-2019			Justin Biber.			New york
+3			Rockstar 			Coldplay.			LA
+4			Women's special			Alan Walkar.			Boston
+5			Quit.
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+4
+
+
+Enter The event name to be booked 
+abc
+
+opops !!  No Event on our records
+
+
+Enter 1 for - Add a New event
+Enter 2 for - Search spectific event
+Enter 3 for - Display All event details
+Enter 4 for - Book a Event ticket  
+Enter 5 for - Exit 
+
+Enter your choice 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
