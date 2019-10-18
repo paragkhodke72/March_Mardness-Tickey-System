@@ -1,4 +1,4 @@
- /* Programming Assignment no: 2.                                         main.cpp
+ /*                                         main.cpp
  * Author: Parag khodke
  * Version: Created on april-06 (On X' Code)
  * Copyright © Best practice for programmers based on industry and education
